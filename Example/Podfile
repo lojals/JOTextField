@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'JOTextField', :exclusive => true do
+  pod "JOTextField", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "JOTextField", :path => "../"
+
+  pod 'FBSnapshotTestCase'
+end
