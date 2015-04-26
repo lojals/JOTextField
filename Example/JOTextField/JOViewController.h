@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "JOTextField.h"
 
 @interface JOViewController : UIViewController
+
+@property (strong,nonatomic) IBOutlet JOTextField *textFieldExample;
+@property (strong,nonatomic) IBOutlet JOTextField *textFieldExample2;
 
 @end

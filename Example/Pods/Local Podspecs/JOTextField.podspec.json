@@ -2,14 +2,14 @@
   "name": "JOTextField",
   "version": "0.1.0",
   "summary": "A short description of JOTextField.",
-  "description": "                       An optional longer description of JOTextField\n\n                       * Markdown format.\n                       * Don't worry about the indent, we strip it!\n",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/JOTextField",
+  "description": "JOTextField is a custom version of UITextField that Includes Validations and more",
+  "homepage": "https://github.com/lojals/JOTextField",
   "license": "MIT",
   "authors": {
     "Jorge Ovalle": "jroz9105@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/JOTextField.git",
+    "git": "https://github.com/lojals/JOTextField.git",
     "tag": "0.1.0"
   },
   "platforms": {
@@ -20,6 +20,11 @@
   "resource_bundles": {
     "JOTextField": [
       "Pod/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "pop": [
+      "~> 1.0"
     ]
   }
 }

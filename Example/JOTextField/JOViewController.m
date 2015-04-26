@@ -13,11 +13,17 @@
 @end
 
 @implementation JOViewController
+@synthesize textFieldExample,textFieldExample2;
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    //Example 1: from Storyboard
+    textFieldExample.type = TYPE_EMAIL;
+    [textFieldExample config];
+    
+    //Example 2: 
 }
 
 - (void)didReceiveMemoryWarning

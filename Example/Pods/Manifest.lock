@@ -1,6 +1,8 @@
 PODS:
   - FBSnapshotTestCase (1.7)
-  - JOTextField (0.1.0)
+  - JOTextField (0.1.0):
+    - pop (~> 1.0)
+  - pop (1.0.7)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -12,6 +14,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 1eea5145c1f2fa907812ab92e1d6063a8d809b4e
-  JOTextField: 8a94aca04697e9e10439bf11f6d28b95594ae12b
+  JOTextField: f7cb8ac06c2bac74c363c42eaa4998911fb58d10
+  pop: 628ffc631644601567ee8bfaaaea493ebd7d0923
 
 COCOAPODS: 0.36.1
