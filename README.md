@@ -1,7 +1,13 @@
 # JOTextField
 Just Copy these 4 files into your project and that's it.
 
-![picture alt](http://i.imgur.com/0TS4pq8.gif?1 "Validation functionality")
+- JOTextField.h
+- JOTextField.m
+- Vars.h
+- Vars.m
+
+
+![picture alt](http://i.imgur.com/OctSyOS.gif "Validation functionality")
 
 ### Validation of:
 - Email
