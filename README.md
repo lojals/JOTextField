@@ -1,29 +1,20 @@
 # JOTextField
+Just Copy these 4 files into your project and that's it.
 
-[![CI Status](http://img.shields.io/travis/Jorge Ovalle/JOTextField.svg?style=flat)](https://travis-ci.org/Jorge Ovalle/JOTextField)
-[![Version](https://img.shields.io/cocoapods/v/JOTextField.svg?style=flat)](http://cocoapods.org/pods/JOTextField)
-[![License](https://img.shields.io/cocoapods/l/JOTextField.svg?style=flat)](http://cocoapods.org/pods/JOTextField)
-[![Platform](https://img.shields.io/cocoapods/p/JOTextField.svg?style=flat)](http://cocoapods.org/pods/JOTextField)
+![picture alt](http://imgur.com/0TS4pq8 "Validation functionality")
 
-## Usage
+### Validation of:
+- Email
+- Numbers
+- Strings
+- Required
+- Password length
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
-
-## Installation
-
-JOTextField is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod "JOTextField"
-```
+## Installation/Requirements
+To Use JOTextField you'll need CocoaPods and pop facebook framework in your dependencies.
 
 ## Author
-
-Jorge Ovalle, jroz9105@gmail.com
+Jorge Ovalle @lojals
 
 ## License
-
 JOTextField is available under the MIT license. See the LICENSE file for more info.

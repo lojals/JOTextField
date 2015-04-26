@@ -7,5 +7,4 @@ end
 target 'Tests', :exclusive => true do
   pod "JOTextField", :path => "../"
   pod 'FBSnapshotTestCase'
-  pod 'pop', '~> 1.0'
 end
