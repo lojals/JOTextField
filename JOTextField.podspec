@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "JOTextField"
-  s.version          = "0.1.0"
+  s.version          = "0.0.1"
   s.summary          = "A short description of JOTextField."
   s.description      = "JOTextField is a custom version of UITextField that Includes Validations and more"
   s.homepage         = "https://github.com/lojals/JOTextField"
