@@ -21,9 +21,10 @@
     
     //Example 1: from Storyboard
     textFieldExample.type = TYPE_EMAIL;
+    //textFieldExample.required = true;
     [textFieldExample config];
     
-    //Example 2: 
+    //Example 2:
 }
 
 - (void)didReceiveMemoryWarning

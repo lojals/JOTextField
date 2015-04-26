@@ -1,6 +1,6 @@
 #include "Pods-Tests-JOTextField.xcconfig"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/JOTextField" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/FBSnapshotTestCase" "${PODS_ROOT}/Headers/Public/JOTextField" "${PODS_ROOT}/Headers/Public/pop"
-OTHER_LDFLAGS = -ObjC
+OTHER_LDFLAGS = ${PODS_TESTS_JOTEXTFIELD_OTHER_LDFLAGS} -ObjC
 PODS_ROOT = ${SRCROOT}
 SKIP_INSTALL = YES

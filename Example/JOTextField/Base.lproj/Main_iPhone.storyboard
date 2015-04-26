@@ -17,13 +17,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="o6v-GF-3re" customClass="JOTextField">
-                                <rect key="frame" x="51" y="55" width="219" height="60"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="o6v-GF-3re" customClass="JOTextField">
+                                <rect key="frame" x="51" y="254" width="219" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="OTN-nf-jDK"/>
+                                    <constraint firstAttribute="width" constant="219" id="sNL-g7-aZq"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                         </subviews>
-                        <color key="backgroundColor" red="0.045454545454545414" green="0.045454545454545414" blue="0.045454545454545414" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                        <constraints>
+                            <constraint firstAttribute="centerY" secondItem="o6v-GF-3re" secondAttribute="centerY" id="QMi-gT-6kn"/>
+                            <constraint firstAttribute="centerX" secondItem="o6v-GF-3re" secondAttribute="centerX" id="jUe-3E-r3a"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="textFieldExample" destination="o6v-GF-3re" id="Gub-lV-FEK"/>

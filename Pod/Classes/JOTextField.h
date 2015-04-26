@@ -16,9 +16,8 @@
 
 //Properties
 @property int  type;
-
-@property int  typed;
 @property BOOL required;
+
 @property (strong,nonatomic) UIView *view;
 @property (strong,nonatomic) UIButton *tooltip;
 
