@@ -22,10 +22,5 @@
       "Pod/Assets/*.png"
     ]
   },
-  "frameworks": "UIKit",
-  "dependencies": {
-    "pop": [
-      "~> 1.0"
-    ]
-  }
+  "frameworks": "UIKit"
 }
