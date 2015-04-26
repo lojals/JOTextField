@@ -1,7 +1,7 @@
 # JOTextField
 Just Copy these 4 files into your project and that's it.
 
-![picture alt](http://imgur.com/0TS4pq8 "Validation functionality")
+![picture alt](http://i.imgur.com/0TS4pq8.gif?1 "Validation functionality")
 
 ### Validation of:
 - Email
